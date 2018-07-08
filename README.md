@@ -41,3 +41,10 @@ sed -i -e 's/"l90 lmov lstraight"/"fromscript"/g' calibration/scripts/script_var
 5. Change name of file to be used in calibration package
     * sed -i -e 's/"l90 lmov lstraight"/"fromscript"/g' calibration/scripts/script_variables.sh
     
+## Usage
+The bag can be anywhere in the filesystem, the code doesn't rely on copying the bag to save time.  
+1. `cd odom-lidar-param`
+2. `chmod +x ./calibrate.sh`
+3. `./calibrate.sh yourbagpath/yourbagname.bag`
+
+This generates the file with calibration parameters in the newly generated base folder.
