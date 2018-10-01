@@ -1,5 +1,6 @@
 # Odometry-LiDAR Calibration
 
+#### Requires Pandas and NumPy python libraries! Please install before continuing
 Setup is lengthy, I recommend running the following as a shell script to reduce hassles.  
 Though I explain each step below briefly.  
 ```
